@@ -33,3 +33,13 @@
   position: absolute;
   left: 33px;
 }
+.nav__noti__sm__top {
+  background-color: tomato;
+  display: flex;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  top: -7px;
+  right: -6px;
+}
