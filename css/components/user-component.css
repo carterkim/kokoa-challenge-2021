@@ -53,3 +53,14 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.user-component-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-component-info span {
+  color: tomato;
+  margin-left: 5px;
+  margin-top: 6px;
+}
