@@ -18,3 +18,16 @@
 .screen-header__icons span {
   margin-left: 25px;
 }
+
+@keyframes rotate {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: rotate 2s linear infinite;
+}
